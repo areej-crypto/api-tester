@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App {
   text-align: center;
 }
@@ -46,10 +47,21 @@
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+.api-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+  font-family: 'Segoe UI', sans-serif;
+>>>>>>> 93807d62f7b28ff8a36cc1e85e178eae60fe6c9e
 }
 
 .api-title {
   text-align: center;
+<<<<<<< HEAD
   color: #222;
   margin-bottom: 1.5rem;
 }
@@ -69,10 +81,56 @@
   padding: 0.6rem;
   margin-top: 0.3rem;
   border: 1.8px solid #ccc;
+=======
+  color: #333;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.api-button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.api-button:hover {
+  background: #0056b3;
+}
+
+.active-tab {
+  background: #0056b3;
+}
+
+.run-button {
+  margin: 1rem auto;
+  display: block;
+  background: #28a745;
+}
+
+.input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+>>>>>>> 93807d62f7b28ff8a36cc1e85e178eae60fe6c9e
   border-radius: 6px;
   font-size: 1rem;
 }
 
+<<<<<<< HEAD
 .api-select {
   width: 120px;
   margin-left: 0.5rem;
@@ -129,3 +187,50 @@
   gap: 1rem;
 }
 
+=======
+.result-container {
+  margin-top: 2rem;
+}
+
+.result-block {
+  background: #f4f8fb;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+}
+
+.api-response {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+}
+
+.api-error {
+  color: #dc3545;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.status {
+  margin-left: 8px;
+  font-size: 1.2rem;
+}
+
+.status.success {
+  color: green;
+}
+
+.status.error {
+  color: red;
+}
+
+.custom-api {
+  margin-top: 2rem;
+}
+>>>>>>> 93807d62f7b28ff8a36cc1e85e178eae60fe6c9e
